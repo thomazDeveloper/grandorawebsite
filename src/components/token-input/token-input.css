@@ -1,0 +1,75 @@
+.token-input-panel {
+    width: 382px;
+    max-width: 382px;
+    min-width: 380px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px, rgba(0, 0, 0, 0.6) 0px 7px 13px -3px, rgba(253, 253, 253, 0.6) 0px -3px 0px inset;
+}
+
+.token-amount-input input {
+    outline: none;
+    height: 30px;
+    width: 200px;
+    background-color: transparent!important;
+    border: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+    appearance: none;
+    outline: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::placeholder {
+    color: #000000;
+}
+
+input:disabled {
+    cursor: not-allowed;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.set-max-value {
+    background-color: transparent;
+    color: #0c0c0c;
+    border-radius: 6px;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+    padding:2px;
+    font-family: 'Rajdhani';
+}
+
+.set-max-value:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.select-token {
+    min-width: 100px;
+    margin-left: 5px;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 6px;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rajdhani';
+}
+
+.selected-token-ico {
+    width: 30px;
+    border-radius: 50%;
+}

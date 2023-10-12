@@ -1,0 +1,31 @@
+.t-swap {
+    width: 30%;
+    min-width: 320px;
+    min-height: 460px;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(248, 243, 243, 0.5);
+    box-shadow: rgba(247, 245, 245, 0.25) 0px 14px 28px, rgba(247, 244, 244, 0.22) 0px 10px 10px;
+}
+
+.t-swap-setting {
+    width: calc(100% - 5px);
+    background-color:#EEBC4E;
+    border-right: 5px solid #fed67e;
+    border-bottom: 2px solid #fed67e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.t-swap-label {
+    color: #ffffff;
+    font-size: 32px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.t-open-setting {
+    margin-right: 25px;
+}

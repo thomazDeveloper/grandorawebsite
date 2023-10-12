@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "grandora",
+    "demo": "grandora-da43f",
+    "test": "grandora"
+  },
+  "targets": {}
+}
