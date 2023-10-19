@@ -232,20 +232,20 @@ const Landing = () => {
           </div> */}
         </div>
       </div>
-      <div className="font-fixed mobile-side_grandora">
+      {/* <div className="font-fixed mobile-side_grandora">
         <div className="font-Rajdhani uppercase font-semibold text-white text-21 leading-30 tracking-90p text-center w-full mb-15">
           Welcome to
         </div>
         <div className="font-Hanno text-white text-100 leading-100 tracking-20p  text-center w-full">
           GRANDORA
         </div>
-        {/* <button
+        <button
           onClick={() => setModalShow(true)}
           className="relative uppercase h-30 z-100 bg-white text-14 font-lato msm:top-10p  leading-32 text-center rounded-6 hover:text-texasRose w-200 tracking-30p  font-semibold"
         >
           GET READY
-        </button> */}
-        {/*<div className="social-fixed">
+        </button>
+        <div className="social-fixed">
           {socialIcons.map((item, index) => {
             return (
               <a
@@ -256,13 +256,13 @@ const Landing = () => {
               >
                 <img
                   src={item.icon}
-                  className="  h-30 w-30 mr-10 sm:mr-0"
+                  className="  h-30 w-30 sm:mr-0"
                 />
               </a>
             );
           })}
-        </div>*/}
-      </div>
+        </div>
+      </div> */}
 
       <div
         className={` ${
@@ -333,7 +333,7 @@ const Landing = () => {
                   >
                     <img
                       src={item.icon}
-                      className="  h-30 w-30 mr-10 sm:mr-0"
+                      className="  h-30 w-30 sm:mr-0"
                     />
                   </a>
                 );
@@ -358,7 +358,7 @@ const Landing = () => {
                 <div className="font-Rajdhani uppercase font-semibold text-white text-[14px] leading-[16px] tracking-[0.6em] text-center w-full mb-15">
                   Welcome to
                 </div>
-                <p className="font-Hanno text-white text-[38px] tracking-[10px] font-bold leading-[38px]  text-center">
+                <p className="font-Hanno text-white text-[38px] tracking-[10px] font-bold leading-[38px]  text-center mb-10">
                   GRANDORA
                 </p>
               </div>
@@ -375,11 +375,12 @@ const Landing = () => {
                     <a
                       key={index}
                       href={item.url}
+                      target="_blank"
                       className={secondPostSocialClass}
                     >
                       <img
                         src={item.icon}
-                        className="  h-30 w-30 mr-10 sm:mr-0"
+                        className="  h-30 w-30 sm:mr-0"
                       />
                     </a>
                   );

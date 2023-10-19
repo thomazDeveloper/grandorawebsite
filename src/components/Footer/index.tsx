@@ -28,8 +28,9 @@ const Footer = () => {
               contact us
             </p>
             <p className="font-Rajdhani sm:text-18 text-14  sm:leading-24 leading-14  tracking-2">
-              You’ll find us at all hours on Discord and also reach us through
-              the usual channels.
+              Join our Official Discord
+              server Connecting your community in real
+              time , Get support and Show Off your games!
             </p>
             <div className="md:my-50p msm:my-10p d-flex">
               {socialIcons.map((item, index) => {
@@ -52,7 +53,7 @@ const Footer = () => {
         </div>
         <div className="flex  items-center min-h-50">
           <p className="font-Rajdhani mb-4 sm:mb-0 sm:text-12 text-10 font-medium text-white sm:text-left text-center mt-auto sm:mt-0">
-            Copyright © 2022 Grandona. All rights reserved.
+            Copyright © 2022 Grandora. All rights reserved.
           </p>
         </div>
       </div>
